@@ -15,7 +15,8 @@ BuildRequires:	gcc-c++
 BuildRequires:	fftw-devel
 BuildRequires:	make
 BuildRequires:	python
-#Provides:	
+BuildRequires:	qt4-devel
+	
 
 %description
 The Numerical Electromagnetics Code (NEC-2) is a comprehensive 
