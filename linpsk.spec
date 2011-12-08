@@ -33,7 +33,7 @@ GNU Public License (GPL).
 %setup -q -n %{name}
 
 #fix permissions for debuginfo files
-chmod 0644 $RPM_BUILD_DIR/%{name}/src/{rttydemodulator.cpp,cpskdemodulator.cpp,cpskdemodulator.h,rttydemodulator.h}
+chmod 0644 %{_builddir}/%{name}/src/{rttydemodulator.cpp,cpskdemodulator.cpp,cpskdemodulator.h,rttydemodulator.h}
 
 
 %build
