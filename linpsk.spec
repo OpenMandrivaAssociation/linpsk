@@ -9,7 +9,7 @@ Release:	%mkrel %{rel}
 Summary:	Analysis of the electromagnetic properties of structures
 Group:		Sciences/Physics 
 License:	GPL
-URL:		http://www.physics.otago.ac.nz/research/electronics/nec/index.html
+URL:		https://www.physics.otago.ac.nz/research/electronics/nec/index.html
 Source:		http://alioth.debian.org/frs/download.php/2690/%{name}-%{version}.tar.gz
 BuildRequires:	gcc-c++
 BuildRequires:	fftw-devel
